@@ -1,0 +1,47 @@
+{
+  "name": "express-demo",
+  "version": "4.0.0",
+  "description": "redovisa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon ./bin/www",
+    "test": "nyc --all --reporter=html --reporter=text mocha --reporter=dot test/**/*.js",
+    "node6": "docker-compose up -d node6",
+    "node7": "docker-compose up -d node7",
+    "node8": "docker-compose up -d node8",
+    "node9": "docker-compose up -d node9",
+    "test-node6": "docker-compose run test-node6 npm test",
+    "test-node7": "docker-compose run test-node7 npm test",
+    "test-node8": "docker-compose run test-node8 npm test",
+    "test-node9": "docker-compose run test-node9 npm test",
+    "stop": "docker-compose down"
+  },
+  "author": "Zackarias Madsen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jstransformer-markdown-it": "^2.0.0",
+    "normalize.less": "^1.0.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.1.10",
+    "codecov": "^3.0.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-plugin-pug": "^1.1.0",
+    "eslint-plugin-react": "^7.4.0",
+    "html-minifier": "^3.5.6",
+    "js-yaml": "^3.10.0",
+    "jsonlint": "^1.6.2",
+    "less-express": "^1.1.0",
+    "mocha": "^4.0.1",
+    "mongodb": "^2.2.33",
+    "nyc": "^11.3.0",
+    "stylelint": "^8.2.0",
+    "supertest": "^3.0.0",
+    "uglify-es": "^3.1.9",
+    "ws": "^3.3.2"
+  }
+}

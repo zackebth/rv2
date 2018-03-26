@@ -1,0 +1,22 @@
+[
+    {
+        "namn": "Kalle",
+        "bor": "Stockholm",
+        "land": "Sverige"
+    },
+    {
+        "namn": "Charles",
+        "bor": "Köpenhamn",
+        "land": "Danmark"
+    },
+    {
+        "namn": "Jukka",
+        "bor": "Helsingfors",
+        "land": "Finland"
+    },
+    {
+        "namn": "Olle",
+        "bor": "Oslo",
+        "land": "Norge"
+    }
+]

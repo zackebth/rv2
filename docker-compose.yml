@@ -1,0 +1,89 @@
+version: "3"
+services:
+      express:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-alpine
+          environment:
+              - DBWEBB_DSN=mongodb://mongodb:27017/mumin
+          links:
+              - mongodb
+          volumes:
+              - ./:/app/
+              - /app/node_modules/
+          ports:
+              - 3000:3000
+          command: "node index.js"
+      mongodb:
+          image: mongo
+          environment:
+              - MONGO_DATA_DIR=/data/db
+          volumes:
+              - ./data/db:/data/db
+          ports:
+              - 27017:27017
+          command: mongod --bind_ip_all
+      node9:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-9-alpine
+          user: "node"
+          environment:
+            - NODE_ENV=production
+          volumes:
+            - .:/app
+          ports:
+            - "8089:3000"
+          command: "npm start"
+      node8:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-8-alpine
+          user: "node"
+          environment:
+            - NODE_ENV=production
+          volumes:
+            - .:/app
+          ports:
+            - "8088:3000"
+          command: "npm start"
+      node7:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-7-alpine
+          user: "node"
+          environment:
+            - NODE_ENV=production
+          volumes:
+            - .:/app
+          ports:
+            - "8087:3000"
+          command: "npm start"
+      node6:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-6-alpine
+          user: "node"
+          environment:
+            - NODE_ENV=production
+          volumes:
+            - .:/app
+          ports:
+            - "8086:3000"
+          command: "npm start"
+      test-node6:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-6-alpine
+      test-node7:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-7-alpine
+      test-node8:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-8-alpine
+      test-node9:
+          build:
+              context: .
+              dockerfile: docker/Dockerfile-node-9-alpine

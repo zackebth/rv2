@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title= title
+    block style
+        link(rel="stylesheet", href="/css/style.css", type='text/css')
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans")
+  body
+    include header.pug
+    block content
+    block scripts
+    include footer.pug

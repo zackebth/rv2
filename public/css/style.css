@@ -1,0 +1,142 @@
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    background: url("/img/bg-7-full.jpg");
+}
+
+h3 {
+    margin: 0;
+}
+
+.meImg {
+    display: inline-block;
+    width: 30%;
+}
+
+.aboutImg {
+    display: inline-block;
+    width: 30%;
+}
+
+#image {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+.header-container {
+    background-color: transparent;
+    height: 130px;
+    border: 2px solid #333;
+}
+
+
+
+.navbar {
+    margin-top: 130px;
+    height: 50px;
+}
+
+.content {
+    margin-top: 60px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contentChat {
+    margin-top: 60px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chatInfo {
+    float: left;
+    width: 35%;
+}
+
+.chat {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.meText {
+    display: inline-block;
+    width: 69%;
+}
+
+.aboutText {
+    display: inline-block;
+    width: 69%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+.footer {
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+.dbContent {
+    margin-top: 10%;
+}
+
+#tableRow td {
+    padding: 5px;
+  }
