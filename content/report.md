@@ -124,5 +124,10 @@ För övrigt så gick min procces av att skapa min modul och sen återigen anvä
 Jag hade det mesta redan klart, men som sagt, det finns alltid saker att rätta eller lägga till. Men för min del så tog det inte så jätte mycket tid att slutföra detta.
 
 
-
 # Project
+
+#### Länka till ditt GitHub repo och berätta om/vilka optionella krav du gjort. Berätta också om du byggde vidare på applikationen från kursmomenten eller om du gjorde nya vägval rörande tekniker och applikation inför projektet.
+
+#### Skriv ett allmänt stycke om hur projektet gick att genomföra. Problem/lösningar/strul/enkelt/svårt/snabbt/lång tid, etc. Var projektet lätt eller svårt? Tog det lång tid? Vad var svårt och vad gick lätt? Var det ett bra och rimligt projekt för denna kursen?
+
+#### Avsluta med ett sista stycke med dina tankar om kursen och vad du anser om materialet och handledningen (ca 5-10 meningar). Ge feedback till lärarna och förslå eventuella förbättringsförslag till kommande kurstillfällen. Är du nöjd/missnöjd? Kommer du att rekommendera kursen till dina vänner/kollegor? På en skala 1-10, vilket betyg ger du kursen?
