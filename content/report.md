@@ -123,7 +123,6 @@ För övrigt så gick min procces av att skapa min modul och sen återigen anvä
 
 Jag hade det mesta redan klart, men som sagt, det finns alltid saker att rätta eller lägga till. Men för min del så tog det inte så jätte mycket tid att slutföra detta.
 
-
 # Project
 
 #### Länka till ditt GitHub repo och berätta om/vilka optionella krav du gjort. Berätta också om du byggde vidare på applikationen från kursmomenten eller om du gjorde nya vägval rörande tekniker och applikation inför projektet.
